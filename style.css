@@ -1,0 +1,92 @@
+.menu {text-align: center;}
+.menu a {color: rgb(95, 95, 95) ;
+font-size:25px ;
+padding-left: 20px;
+text-decoration: none;
+}
+.menu a:hover{color: rgb(0, 162, 255);}
+.header {text-align: center;
+background-image: url(polygons.png);
+height: 500px;
+width: 1200px;
+margin: 0 auto;
+}
+.header h1 {color: white;
+    padding-top: 200px;
+}
+.header button {background-color: white;
+    width: 120px;
+    border-radius: 10px;
+    outline: none;
+}
+.header button:hover {background-color: rgb(0, 162, 255);}
+
+.company {text-align: center;}
+
+.team {text-align: center;}
+
+.profile img {width: 300px;
+height: 190px;
+}
+
+.profile {border: grey 2px solid;
+width: 310px;
+display: inline-block;
+margin-left: 15px;
+box-shadow: 0 2px 10px grey;
+}
+
+.profile button {background-color: rgb(17, 113, 158);
+color: white;
+width: 150px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.tariff {text-align: center;
+    background-color: grey;
+}
+
+.tariff li {list-style-type: none;
+border-bottom: rgb(179, 179, 179) 2px solid;
+}
+
+.basic,.pro,.premium {
+    border: rgb(179, 179, 179) 2px solid;
+    width: 400px;
+    display: inline-block;
+}
+
+.tariff ul {margin: 0px;}
+
+.tariff button {color: white;
+border-radius: 5px;
+background-color: black;
+}
+
+.basic_li,.premium_li {color: white;
+background-color: black;
+}
+
+.pro_li {color: white;
+background-color: rgb(14, 75, 145);
+}
+
+.moscow {background-image: url(address.png);
+background-repeat: no-repeat;
+height: 50px;
+padding-left: 25px;
+padding-top: 2px;
+}
+.contactss {background-image: url(phone.png);
+background-repeat: no-repeat;
+height: 50px;
+padding-left: 25px;
+padding-top: 2px;
+}
+.email {background-image: url(mail.png);
+background-repeat: no-repeat;
+height: 50px;
+padding-left: 25px;
+padding-top: 2px;
+}
